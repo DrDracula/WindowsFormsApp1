@@ -37,6 +37,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+         MessageBox.Show("Saat kac GİT");
             Firma f = new Firma();
             List<Firma> firmalar = f.FirmalariVer();
             dataGridView1.DataSource = firmalar;
